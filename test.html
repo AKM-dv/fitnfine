@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitNFine</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About us</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="/contact" class="contact-btn">Contact us</a></li>
+            </ul>
+        </nav>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            header {
+                margin-top: 40px;
+                padding: 10px 0;
+                background: #fff;
+            }
+            nav ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            nav ul li {
+                display: inline;
+            }
+            nav ul li a {
+                text-decoration: none;
+                color: black;
+            }
+            .contact-btn {
+                background: black;
+                color: white;
+                padding: 5px 15px;
+                border-radius: 14px;
+            }
+        </style>
+    </header>
+
+    <div class="productsection" style="display: flex; justify-content: center; gap: 1em; padding: 1em; flex-wrap: wrap; margin-top: 3em; margin-bottom: 7em;">
+        <section class="main">
+            <div class="default gallery">
+                <div class="main-img">
+                    <img class="active" src="a4.jpg" alt="product-img" />
+                    <img src="a1.jpg" alt="product-img" />
+                    <img src="a2.jpg" alt="product-img" />
+                    <img src="a3.jpg" alt="product-img" />
+                </div>
+                <div class="thumb-list">
+                    <div class="active">
+                        <img src="a1.jpg" alt="product-img" />
+                    </div>
+                    <div>
+                        <img src="a2.jpg" alt="product-img" />
+                    </div>
+                    <div>
+                        <img src="a3.jpg" alt="product-img" />
+                    </div>
+                    <div>
+                        <img src="a4.jpg" alt="product-img" />
+                    </div>
+                </div>
+            </div>
+            <div class="lightbox">
+                <div class="gallery">
+                    <div class="main-img">
+                        <!-- icons -->
+                        <span class="icon-close">
+                            <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#69707D" fill-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <span class="icon-prev">
+                            <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <span class="icon-next">
+                            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <!-- main images -->
+                        <img class="active" src="a2.jpg" alt="product-img" />
+                        <img src="a1.jpg" alt="product-img" />
+                        <img src="a3.jpg" alt="product-img" />
+                        <img src="a4.jpg" alt="product-img" />
+                    </div>
+                    <div class="thumb-list">
+                        <div class="active">
+                            <img src="a1.jpg" alt="product-img" />
+                        </div>
+                        <div>
+                            <img src="a2.jpg" alt="product-img" />
+                        </div>
+                        <div>
+                            <img src="a3.jpg" alt="product-img" />
+                        </div>
+                        <div>
+                            <img src="a4.jpg" alt="product-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" style="text-align: left;">
+                <h3 style="color: #66A040;">FitnFine</h3>
+                <h2 class="product-name">Secure Sanitary Pads</h2>
+                <p class="product-desc">
+                    Experience comfort and protection with Secure Sanitary Pad (Natural), designed for women who prioritize health, hygiene, and sustainability. Made with organic cotton and biodegradable materials, these pads ensure rash-free and irritation-free periods while keeping you safe from harmful chemicals.
+                </p>
+                <div class="price-info">
+                    <div class="price">
+                        <span class="current-price">$125.00</span>
+                        <span class="discount" style="background-color: #66a04034; color: #66A040;">50%</span>
+                    </div>
+                    <div class="prev-price">$250.00</div>
+                </div>
+                <div class="add-to-cart-container">
+                    <button onclick="window.location.href='https://wa.me/+919818919460'" class="add-to-cart" style="background-color: #66A040; color: white;">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/>
+                            </svg>
+                        </span>
+                        <span>Order From Whatsapp</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="animate" id="au">
+        <style>
+            svg {
+                cursor: pointer;
+            }
+        </style>
+        <div class="flex flex-col items-center justify-center p-6 space-y-4" loading="lazy" id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923343364!2d77.23701202096986!3d28.522404035817775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1731416317652!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="text-center">Main Contact: +919818919460 </p>
+            <p class="text-center">DELHI BASED HEALTH AND LIFESTYLE FIRM</p>
+            <p class="text-center">Connect us on</p>
+            <div class="flex space-x-4">
+                <a href="https://www.facebook.com/107265221961531">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 256 256">
+                        <path fill="#1877f2" d="M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445" />
+                        <path fill="#fff" d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/makeoversbysnehaa/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 256 256">
+                        <g fill="none">
+                            <rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60" />
+                            <rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60" />
+                            <path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.<!-- filepath: c:\Users\AAKARSHAN\Downloads\fitfine folder\fitfine folder\securepads.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitNFine</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About us</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="/contact" class="contact-btn">Contact us</a></li>
+            </ul>
+        </nav>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            header {
+                margin-top: 40px;
+                padding: 10px 0;
+                background: #fff;
+            }
+            nav ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            nav ul li {
+                display: inline;
+            }
+            nav ul li a {
+                text-decoration: none;
+                color: black;
+            }
+            .contact-btn {
+                background: black;
+                color: white;
+                padding: 5px 15px;
+                border-radius: 14px;
+            }
+        </style>
+    </header>
+    <div class="productsection" style="display: flex; justify-content: center; gap: 1em; padding: 1em; flex-wrap: wrap; margin-top: 3em; margin-bottom: 7em;">
+        <section class="main">
+            <div class="default gallery">
+                <div class="main-img">
+                    <img class="active" src="a4.jpg" alt="product-img" />
+                    <img src="a1.jpg" alt="product-img" />
+                    <img src="a2.jpg" alt="product-img" />
+                    <img src="a3.jpg" alt="product-img" />
+                </div>
+                <div class="thumb-list">
+                    <div class="active">
+                        <img src="a1.jpg" alt="product-img" />
+                    </div>
+                    <div>
+                        <img src="a2.jpg" alt="product-img" />
+                    </div>
+                    <div>
+                        <img src="a3.jpg" alt="product-img" />
+                    </div>
+                    <div>
+                        <img src="a4.jpg" alt="product-img" />
+                    </div>
+                </div>
+            </div>
+            <div class="lightbox">
+                <div class="gallery">
+                    <div class="main-img">
+                        <!-- icons -->
+                        <span class="icon-close">
+                            <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#69707D" fill-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <span class="icon-prev">
+                            <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <span class="icon-next">
+                            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" />
+                            </svg>
+                        </span>
+                        <!-- main images -->
+                        <img class="active" src="a2.jpg" alt="product-img" />
+                        <img src="a1.jpg" alt="product-img" />
+                        <img src="a3.jpg" alt="product-img" />
+                        <img src="a4.jpg" alt="product-img" />
+                    </div>
+                    <div class="thumb-list">
+                        <div class="active">
+                            <img src="a1.jpg" alt="product-img" />
+                        </div>
+                        <div>
+                            <img src="a2.jpg" alt="product-img" />
+                        </div>
+                        <div>
+                            <img src="a3.jpg" alt="product-img" />
+                        </div>
+                        <div>
+                            <img src="a4.jpg" alt="product-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" style="text-align: left;">
+                <h3 style="color: #66A040;">FitnFine</h3>
+                <h2 class="product-name">Secure Sanitary Pads</h2>
+                <p class="product-desc">
+                    Experience comfort and protection with Secure Sanitary Pad (Natural), designed for women who prioritize health, hygiene, and sustainability. Made with organic cotton and biodegradable materials, these pads ensure rash-free and irritation-free periods while keeping you safe from harmful chemicals.
+                </p>
+                <div class="price-info">
+                    <div class="price">
+                        <span class="current-price">$125.00</span>
+                        <span class="discount" style="background-color: #66a04034; color: #66A040;">50%</span>
+                    </div>
+                    <div class="prev-price">$250.00</div>
+                </div>
+                <div class="add-to-cart-container">
+                    <button onclick="window.location.href='https://wa.me/+919818919460'" class="add-to-cart" style="background-color: #66A040; color: white;">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/>
+                            </svg>
+                        </span>
+                        <span>Order From Whatsapp</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="animate" id="au">
+        <style>
+            svg {
+                cursor: pointer;
+            }
+        </style>
+        <div class="flex flex-col items-center justify-center p-6 space-y-4" loading="lazy" id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.85923343364!2d77.23701202096986!3d28.522404035817775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1731416317652!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="text-center">Main Contact: +919818919460 </p>
+            <p class="text-center">DELHI BASED HEALTH AND LIFESTYLE FIRM</p>
+            <p class="text-center">Connect us on</p>
+            <div class="flex space-x-4">
+                <a href="https://www.facebook.com/107265221961531">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 256 256">
+                        <path fill="#1877f2" d="M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445" />
+                        <path fill="#fff" d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/makeoversbysnehaa/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 256 256">
+                        <g fill="none">
+                            <rect width="256" height="256" fill="url(#skillIconsInstagram0)" rx="60" />
+                            <rect width="256" height="256" fill="url(#skillIconsInstagram1)" rx="60" />
+                            <path fill="#fff" d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.
